@@ -1,0 +1,10 @@
+version: "2"
+services:
+  spring-boot:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:8080"
+    volumes:
+      - "./:/var/spring/source/"

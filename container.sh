@@ -1,0 +1,1 @@
+java -jar /var/website/demo.jar
